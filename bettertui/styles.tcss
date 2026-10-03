@@ -1,0 +1,37 @@
+Screen {
+    layout: vertical;
+}
+
+#top {
+    height: 1fr;
+}
+
+#hosts-pane {
+    width: 2fr;
+    border-right: solid $panel;
+}
+
+#modules-pane {
+    width: 1fr;
+}
+
+.pane-title {
+    padding: 0 1;
+    background: $panel;
+    color: $text;
+    text-style: bold;
+}
+
+#hosts, #modules {
+    height: 1fr;
+}
+
+#log {
+    height: 12;
+    border-top: solid $panel;
+    padding: 0 1;
+}
+
+#cmd {
+    dock: bottom;
+}
